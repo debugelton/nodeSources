@@ -11,7 +11,6 @@ var reader = function (exists, callback) {
 	
 	fs.readFile(routeUrl, function (err, data) {
 		
-		
 		if (err) throw err;
 		
 		content = data;
